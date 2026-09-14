@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f3d4d0"/>
+  <circle cx="400" cy="250" r="56" fill="none" stroke="#d46a6a" stroke-width="4"/>
+  <path d="M400 218v64M368 250h64" stroke="#d46a6a" stroke-width="4" stroke-linecap="round"/>
+  <text x="400" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#8a5a5a">coloque uma foto aqui</text>
+</svg>
