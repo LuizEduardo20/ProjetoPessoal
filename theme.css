@@ -65,6 +65,27 @@ p {
     font-size: 0.95rem;
 }
 
+.ending {
+    padding: 2rem 1.2rem 2.2rem;
+    border-radius: 1.4rem;
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 10px 28px rgba(90, 40, 40, 0.05);
+}
+
+.last-note {
+    margin: 0 auto 1.15rem;
+    max-width: 32rem;
+    padding: 1.2rem 1.3rem;
+    border-radius: 1.1rem;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 14px 32px rgba(90, 40, 40, 0.07);
+    text-align: left;
+}
+
+.last-note p {
+    margin: 0;
+}
+
 .cards {
     display: grid;
     gap: 0.9rem;
@@ -147,45 +168,6 @@ p {
     content: "▍";
     color: #d46a6a;
     animation: pulse 1s steps(1) infinite;
-}
-
-.question .actions {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.75rem;
-    margin: 1.4rem 0 1rem;
-}
-
-.question button {
-    cursor: pointer;
-    padding: 0.75rem 1.45rem;
-    border: none;
-    border-radius: 999px;
-    background: #d46a6a;
-    color: #fff;
-    font-size: 1rem;
-    font-family: inherit;
-}
-
-.question button:hover {
-    background: #c45c5c;
-}
-
-.question button.ghost {
-    background: transparent;
-    color: #8a5a5a;
-    box-shadow: inset 0 0 0 1px #e4c6c2;
-}
-
-.question button.ghost:hover {
-    background: #fff;
-    color: #5c3f3f;
-}
-
-.answer {
-    font-size: 1.05rem;
-    color: #8a5a5a;
 }
 
 .hidden {
